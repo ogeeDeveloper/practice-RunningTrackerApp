@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+html {
+    font-family: 'Poppins', sans-serif;
+    background: #2d3740;
+}
+
+body {
+    background: #1c262f;
+    padding: 10px;
+    color: rgb(230, 225, 225);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    padding-top: 10px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="number"] {
+    background: rgb(230, 225, 225);
+    width: 80%;
+    font-family: inherit;
+    margin: 10px 0;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    font-weight: bolder;
+    font-family: inherit;
+    font-size: 14px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px 0 10px 0;
+    background: #0ad9ff;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li {
+    border: 1px solid white;
+    padding: 10px 15px;
+}
+
+.entriesWrapper {
+    padding: 15px 0;
+    font-size: 16px;
+
+}
+
+.entriesWrapper h3 {
+    margin: 0;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.data {
+    font-size: 14px;
+}
+
+.data div {
+    background: #141c22;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 5px 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.progress {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.progress h3 {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.progressCircleWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#progressCircle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /*background: conic-gradient(#70db70 50%, #2d3740 50%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressCenter {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #1c262f;
+}
